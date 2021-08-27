@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+build_palette	autoload/airline/themes/iceberg.vim	/^function! s:build_palette() abort$/;"	f
+build_palette	autoload/lightline/colorscheme/iceberg.vim	/^function! s:build_palette() abort$/;"	f
+build_palette	src/template-airline.vim	/^function! s:build_palette() abort$/;"	f
+build_palette	src/template-lightline.vim	/^function! s:build_palette() abort$/;"	f
+create_colors	src/gooblue.vim	/^function! s:create_colors(palette) abort$/;"	f
+create_colors	src/iceberg.vim	/^function! s:create_colors(palette) abort$/;"	f
+create_context	src/gooblue.vim	/^function! s:create_context() abort$/;"	f
+create_context	src/iceberg.vim	/^function! s:create_context() abort$/;"	f
+create_links	src/gooblue.vim	/^function! s:create_links() abort$/;"	f
+create_links	src/iceberg.vim	/^function! s:create_links() abort$/;"	f
+create_xline_context	src/gooblue.vim	/^function! s:create_xline_context() abort$/;"	f
+create_xline_context	src/iceberg.vim	/^function! s:create_xline_context() abort$/;"	f
+g:airline#themes#gooblue#palette	src/template-airline.vim	/^let g:airline#themes#gooblue#palette = s:build_palette()$/;"	v
+g:airline#themes#iceberg#palette	autoload/airline/themes/iceberg.vim	/^let g:airline#themes#iceberg#palette = s:build_palette()$/;"	v
+g:colors_name	colors/iceberg.vim	/^let g:colors_name = 'iceberg'$/;"	v
+g:colors_name	src/template.vim	/^let g:colors_name = 'gooblue'$/;"	v
+g:lightline#colorscheme#iceberg#palette	autoload/lightline/colorscheme/iceberg.vim	/^let g:lightline#colorscheme#iceberg#palette = s:build_palette()$/;"	v
+g:lightline#colorscheme#iceberg#palette	src/template-lightline.vim	/^let g:lightline#colorscheme#iceberg#palette = s:build_palette()$/;"	v
+g:terminal_ansi_colors	colors/iceberg.vim	/^    let g:terminal_ansi_colors = ['#1e2132', '#e27878', '#b4be82', '#e2a478', '#84a0c6', '#a093c7', '#89b8c2', '#c6c8d1', '#6b7089', '#e98989', '#c0ca8e', '#e9b189', '#91acd1', '#ada0d3', '#95c4ce', '#d2d4de']$/;"	v
+g:terminal_ansi_colors	colors/iceberg.vim	/^    let g:terminal_ansi_colors = ['#dcdfe7', '#cc517a', '#668e3d', '#c57339', '#2d539e', '#7759b4', '#3f83a6', '#33374c', '#8389a3', '#cc3768', '#598030', '#b6662d', '#22478e', '#6845ad', '#327698', '#262a3f']$/;"	v
+g:terminal_color_0	colors/iceberg.vim	/^    let g:terminal_color_0 = '#1e2132'$/;"	v
+g:terminal_color_0	colors/iceberg.vim	/^    let g:terminal_color_0 = '#dcdfe7'$/;"	v
+g:terminal_color_1	colors/iceberg.vim	/^    let g:terminal_color_1 = '#cc517a'$/;"	v
+g:terminal_color_1	colors/iceberg.vim	/^    let g:terminal_color_1 = '#e27878'$/;"	v
+g:terminal_color_10	colors/iceberg.vim	/^    let g:terminal_color_10 = '#598030'$/;"	v
+g:terminal_color_10	colors/iceberg.vim	/^    let g:terminal_color_10 = '#c0ca8e'$/;"	v
+g:terminal_color_11	colors/iceberg.vim	/^    let g:terminal_color_11 = '#b6662d'$/;"	v
+g:terminal_color_11	colors/iceberg.vim	/^    let g:terminal_color_11 = '#e9b189'$/;"	v
+g:terminal_color_12	colors/iceberg.vim	/^    let g:terminal_color_12 = '#22478e'$/;"	v
+g:terminal_color_12	colors/iceberg.vim	/^    let g:terminal_color_12 = '#91acd1'$/;"	v
+g:terminal_color_13	colors/iceberg.vim	/^    let g:terminal_color_13 = '#6845ad'$/;"	v
+g:terminal_color_13	colors/iceberg.vim	/^    let g:terminal_color_13 = '#ada0d3'$/;"	v
+g:terminal_color_14	colors/iceberg.vim	/^    let g:terminal_color_14 = '#327698'$/;"	v
+g:terminal_color_14	colors/iceberg.vim	/^    let g:terminal_color_14 = '#95c4ce'$/;"	v
+g:terminal_color_15	colors/iceberg.vim	/^    let g:terminal_color_15 = '#262a3f'$/;"	v
+g:terminal_color_15	colors/iceberg.vim	/^    let g:terminal_color_15 = '#d2d4de'$/;"	v
+g:terminal_color_2	colors/iceberg.vim	/^    let g:terminal_color_2 = '#668e3d'$/;"	v
+g:terminal_color_2	colors/iceberg.vim	/^    let g:terminal_color_2 = '#b4be82'$/;"	v
+g:terminal_color_3	colors/iceberg.vim	/^    let g:terminal_color_3 = '#c57339'$/;"	v
+g:terminal_color_3	colors/iceberg.vim	/^    let g:terminal_color_3 = '#e2a478'$/;"	v
+g:terminal_color_4	colors/iceberg.vim	/^    let g:terminal_color_4 = '#2d539e'$/;"	v
+g:terminal_color_4	colors/iceberg.vim	/^    let g:terminal_color_4 = '#84a0c6'$/;"	v
+g:terminal_color_5	colors/iceberg.vim	/^    let g:terminal_color_5 = '#7759b4'$/;"	v
+g:terminal_color_5	colors/iceberg.vim	/^    let g:terminal_color_5 = '#a093c7'$/;"	v
+g:terminal_color_6	colors/iceberg.vim	/^    let g:terminal_color_6 = '#3f83a6'$/;"	v
+g:terminal_color_6	colors/iceberg.vim	/^    let g:terminal_color_6 = '#89b8c2'$/;"	v
+g:terminal_color_7	colors/iceberg.vim	/^    let g:terminal_color_7 = '#33374c'$/;"	v
+g:terminal_color_7	colors/iceberg.vim	/^    let g:terminal_color_7 = '#c6c8d1'$/;"	v
+g:terminal_color_8	colors/iceberg.vim	/^    let g:terminal_color_8 = '#6b7089'$/;"	v
+g:terminal_color_8	colors/iceberg.vim	/^    let g:terminal_color_8 = '#8389a3'$/;"	v
+g:terminal_color_9	colors/iceberg.vim	/^    let g:terminal_color_9 = '#cc3768'$/;"	v
+g:terminal_color_9	colors/iceberg.vim	/^    let g:terminal_color_9 = '#e98989'$/;"	v
+gooblue#palette#dark#create	autoload/gooblue/palette/dark.vim	/^function! gooblue#palette#dark#create() abort$/;"	f
+gooblue#palette#light#create	autoload/gooblue/palette/light.vim	/^function! gooblue#palette#light#create() abort$/;"	f
+iceberg#palette#dark#create	autoload/iceberg/palette/dark.vim	/^function! iceberg#palette#dark#create() abort$/;"	f
+iceberg#palette#light#create	autoload/iceberg/palette/light.vim	/^function! iceberg#palette#light#create() abort$/;"	f
+s:save_cpo	autoload/airline/themes/iceberg.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	autoload/lightline/colorscheme/iceberg.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	src/template-airline.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	src/template-lightline.vim	/^let s:save_cpo = &cpo$/;"	v

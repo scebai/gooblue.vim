@@ -3,8 +3,8 @@
 "  | | |____| ____| ___ < ____| __  / |__ \
 " /___\_____|_____|_____/_____|_| \_\_____/
 "
-" File:       iceberg.vim
-" Maintainer: cocopon <cocopon@me.com>
+" File:       gooblue.vim
+" Maintainer: scebai <scebai@topaz.plala.or.jp>
 " Modified:   {{ modified }}
 " License:    MIT
 
@@ -18,7 +18,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'iceberg'
+let g:colors_name = 'gooblue'
 
 if &background == 'light'
   {{ light_rules }}
