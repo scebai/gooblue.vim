@@ -1,9 +1,9 @@
 function! gooblue#palette#dark#create() abort
   let hue_base = 230
 
-  let hue_red = 0
+  let hue_red = 280
   let hue_orange = 25
-  let hue_green = 70
+  let hue_green = 100
   let hue_lblue = 190
   let hue_blue = 215
   let hue_purple = 255
@@ -26,8 +26,8 @@ function! gooblue#palette#dark#create() abort
   " tint
   let g.blue_tint_bg   = pgmnt#color#mix(g.blue, g.normal_bg, 0.30)
   let g.blue_tint_fg   = pgmnt#color#mix(g.blue, g.normal_fg, 0.30)
-  let g.green_tint_bg  = pgmnt#color#mix(g.blue, g.normal_bg, 0.90)
-  let g.green_tint_fg  = pgmnt#color#mix(g.green, g.normal_fg, 0.30)
+  let g.green_tint_bg  = pgmnt#color#mix(g.green, g.normal_bg, 0.60)
+  let g.green_tint_fg  = pgmnt#color#mix(g.green, g.normal_fg, 0.60)
   let g.lblue_tint_bg  = pgmnt#color#mix(g.lblue, g.normal_bg, 0.30)
   let g.lblue_tint_fg  = pgmnt#color#mix(g.lblue, g.normal_fg, 0.30)
   let g.purple_tint_bg = pgmnt#color#mix(g.purple, g.normal_bg, 0.30)
@@ -40,7 +40,7 @@ function! gooblue#palette#dark#create() abort
         \ g.normal_bg, {
         \   'saturation': +0.05,
         \   'lightness': +0.05,
-        \ })dd
+        \ })
   let g.linenr_fg = pgmnt#color#lighten(g.linenr_bg, 0.20)
   let g.cursorlinenr_bg = pgmnt#color#adjust_color(
         \ g.linenr_bg, {
@@ -173,8 +173,8 @@ function! gooblue#palette#dark#create() abort
   let c.cursorlinenr_fg = 253
 
   " diff
-  let c.difftext_bg = 30
-  let c.difftext_fg = 195
+  let c.difftext_bg = 195
+  let c.difftext_fg = 30
 
   " statusline
   let c.statusline_bg = 245
